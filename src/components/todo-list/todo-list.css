@@ -1,0 +1,19 @@
+.todo-list{
+    margin: 50px auto;
+    width: 400px;
+}
+
+.todo-icon{
+    float: right;
+}
+
+.icon-cancel{
+    color: #c62828;
+    font-size: 25px;
+}
+
+.icon-add_circle{
+    margin-left: 8px;
+    color: #558b2f;
+    font-size: 25px;
+}
