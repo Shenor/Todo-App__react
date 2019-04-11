@@ -1,13 +1,13 @@
 import React from 'react';
+
 import './search-panel.css';
-import TextField from '@material-ui/core/TextField';
 
 const SearchPanel = () => {
-return (
-        <div class="input-field search-panel">
-          <textarea id="textarea1" class="materialize-textarea"  placeholder = "Type text"></textarea>
-        </div>
-);
+  return (
+    <input type="text"
+              className="form-control search-input"
+              placeholder="type to search" />
+  );
 };
 
 export default SearchPanel;
